@@ -17,7 +17,7 @@ if wannaPlay in ['no','NO','No','nO']:
     suggestions=input()
 else:
     print('Okay so we are in the endgame right now \nJust joking (forgive my pjs) anyways lets continue with the game\n')
-    print("now I'll ask you for two things only \n1.First the range that is the upper limit and the lower limit in which you want me to think the number\n2.Second the number of turns that you'll require to guess that.")
+    print("now I'll ask you for two things only \n1.First the range that is the upper limit and then the lower limit in which you want me to think the number\n2.Second the number of turns that you'll require to guess that.")
     while True:
         try:
             range1=list(map(int,input('Please give us the lower and upper limits of the range : ').split()))
